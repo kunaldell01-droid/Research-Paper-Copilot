@@ -37,10 +37,10 @@ export default class Nav extends React.Component {
           {/* Logo */}
           <div className="flex items-center gap-2.5 cursor-pointer group" onClick={() => this.onClick('landing')}>
             <div className="w-8 h-8 rounded-full flex items-center justify-center" style={{ backgroundColor: '#FF6B4A' }}>
-              <span className="text-white font- text-lg leading-none">D</span>
+              <span className="text-white font- text-lg leading-none">T</span>
             </div>
             <span className="text-lg sm:text-xl font-semibold transition-opacity group-hover:opacity-70" style={{ color: '#2D2D2D' }}>
-              DeepDraft
+              Telecom Sahayak
             </span>
           </div>
 
